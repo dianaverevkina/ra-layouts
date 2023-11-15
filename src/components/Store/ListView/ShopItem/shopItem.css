@@ -1,0 +1,39 @@
+.item {
+  max-width: 100%;
+  max-height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: #f5f5f5;
+  padding: 0.5rem 2rem;
+}
+
+.item__name {
+  margin: 0;
+}
+
+.item__img {
+  height: 8rem;
+}
+.item__img img {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+.item__price {
+  color: red;
+  margin: 0;
+}
+
+.item__btn {
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+  padding: 0.4rem 0.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

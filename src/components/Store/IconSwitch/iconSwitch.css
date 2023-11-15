@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.store__control {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.store__btn-switch {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 38px;
+  padding: 0;
+}
